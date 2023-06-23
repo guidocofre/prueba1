@@ -1,5 +1,8 @@
-<h1>Mostrando todos los avatars</h1>
-<h1>Guido</h1>
+<h1>Elije el avatar del pajero TORNISH</h1>
+<div>
+    <%= image_tag '01.jpg' %> 
+  </div> 
+  <h1>Pagale a las minas</h1>
 <% @avatars.each do |a| %>
     <%= image_tag "#{a.url_image}" %>
 <% end%>
